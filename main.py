@@ -307,3 +307,4 @@ if STEP.startswith("5)"):
     st.pydeck_chart(pdk.Deck(layers=layers, initial_view_state=view, tooltip=point_tooltip), use_container_width=True)
     st.info("설명: 포인트를 2개 이상 선택하면 '출발 → 도착' 경로가 그려지고, 경유지를 추가하면 (via N)로 표시됩니다. 경로에 마우스를 올리면 라벨이 툴팁으로 뜹니다.")
 
+
